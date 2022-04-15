@@ -53,5 +53,10 @@ function clickOnDiv()
         buttonPressed= false;
     }
 }
+function changeHTML()
+{
+    const element = document.getElementById("addElement");
+    element.innerHTML = `<h1> Whoever created Max Rebo need a raise</h1><img src = "Maxrebo.jpg" style= "width: 400px; height: 350px;">`;
+}
 
 makeWebpage();
